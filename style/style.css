@@ -1,0 +1,68 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell img {
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(33.33333% - 2rem);
+  }
+}
+
+.cell {
+  margin: 1rem;
+}
+
+body {
+  background-color:#75BACB;
+  color:black;
+  padding-top: 60px;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  opacity:0.7;
+  background-repeat: no repeat;
+  color: white;
+  background: white;
+  height:100vh;
+}
+
+.social {
+font-size:40px;
+}
+
+p1 {
+ font-size:20px;
+ border-width:0px;
+}
+
+.hovereffect {
+width:100%;
+height:40%;
+float:left;
+overflow:hidden;
+position:relative;
+text-align:center;
+cursor:default;
+}
